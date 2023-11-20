@@ -1,15 +1,18 @@
-# desc-atividade-pratica10
-<h1>Atividade Prática 10 do curso de ADS da Faculdade Descomplica</h1>
+# Atividade Prática 10 do curso de ADS da Faculdade Descomplica
+
+*Atividade Prática do Módulo 3B Mobile Developer da disciplina Prática Integradora Desenvolvimento de Apps*
+
 Segue abaixo a descrição da ativade prática:
-Atividade Prática 10 - Trabalhando com GitHub
 
-Título da Prática: Criação de repositório dentro do gitHub
+## Atividade Prática 10 - Trabalhando com GitHub
 
-Objetivos: Utilizar o versionador GitHub para desenvolver todas as etapas de criação do repositório e manipulação dele.
+**Título da Prática:** Criação de repositório dentro do gitHub
 
-Materiais, Métodos e Ferramentas: Iremos fazer uma pesquisa na internet e utilizar o gitHub.
+**Objetivos:** Utilizar o versionador GitHub para desenvolver todas as etapas de criação do repositório e manipulação dele.
 
-Atividade Prática
+**Materiais, Métodos e Ferramentas:** Iremos fazer uma pesquisa na internet e utilizar o gitHub.
+
+**Atividade Prática**
 
 Informalmente, notamos que “uma versão” não pode existir por si só, mas deve ser entendida como sendo uma versão de algo. Assim, podemos tentar a seguinte definição: Uma versão é uma instância concreta potencial de algum objeto (específico).
 
@@ -35,10 +38,11 @@ Uma coisa muito interessante é que o git pode ser usado para controlar versões
 
 E então vem a pergunta, mas porque usar o Git? Existem várias razões para isso dentre elas temos:
 
-Ele é rápido;
-Não é necessário que tenhamos acesso direto ao servidor, só se tivermos uma conta no git já é o suficiente;
-Muito indicado para fazer o gerenciamento e a unificação simultânea do mesmo arquivo;
-E atualmente se tornou o principal protocolo de gerenciamento de versões.
+* Ele é rápido;
+* Não é necessário que tenhamos acesso direto ao servidor, só se tivermos uma conta no git já é o suficiente;
+* Muito indicado para fazer o gerenciamento e a unificação simultânea do mesmo arquivo;
+* E atualmente se tornou o principal protocolo de gerenciamento de versões.
+
 Outra ferramenta que podemos destacar é o GitHub.  Então podemos dizer que é uma rede social para gerenciar códigos e projetos.  Segundo Marques (2019) “Se o Git é o coração do GitHub, então o Hub é a alma. O hub de GitHub é o que torna uma linha de comando, como o Git, a maior rede social para desenvolvedores do mundo.”
 
 Com isso podemos chamar o GitHub de “rede social”, pois dentro dele é possível uma socialização entre vários usuários e é um portfólio para indicar o que estão desenvolvendo. Todavia, vale ressaltar algo muito importante, o GitHub não é apenas para desenvolvedores, ainda segundo Marques (2019): O   GitHub   é   uma   ótima   plataforma   que   mudou   o   método   de   trabalho   de desenvolvedores.  Mas qualquer pessoa que deseja gerenciar seu projeto com eficiência e trabalhar com outros colaboradores também pode usar o GitHub.
@@ -47,7 +51,28 @@ GitHub é um serviço popular de compartilhamento de código social baseado na W
 
 Agora que já entendemos o que é um versionamento, o ambiente de linhas de comando git e o ambiente gráfico do GitHub, vamos criar uma pasta com o nome do projeto da sua escolha e um arquivo chamado index.html
 
+A seguir você irá adicionar o seguinte conteúdo ao arquivo:
+```
+<!DOCTYPE html>
 
+<html lang=“pt-br”>
+
+<head>
+
+<title>Título da página</title>
+
+<meta charset=“utf-8”>
+
+</head>
+
+<body>
+
+<h1>Aqui vai um título</h1>
+
+</body>
+
+</html>
+```
 
 Na sequência você irá subir o seu projeto para o GitHub.
 
@@ -59,5 +84,28 @@ Na sequência você irá subir o seu projeto para o GitHub.
 
 4. Execute um commit com uma mensagem útil e na sequência, você dará um push para o repositório remoto (GitHub).
 
-Após isso você irá abrir uma pasta do seu projeto, e irá criar uma pasta chamada imagens, procure no Google por uma imagem de cachorro e salve dentro dessa nova pasta criada. Feito isso, irá abrir seu arquivo index.html e irá adicionar modificações e salve o arquivo:
+Após isso você irá abrir uma pasta do seu projeto, e irá criar uma pasta chamada imagens, procure no Google por uma imagem de cachorro e salve dentro dessa nova pasta criada. Feito isso, irá abrir seu arquivo index.html e irá adicionar as seguintes modificações e salve o arquivo:
+```
+<!DOCTYPE html>
+
+<html lang=“pt-br”>
+
+<head>
+
+<title>Fanpage de Gatinhos</title>
+
+<meta charset=“utf-8”>
+
+</head>
+
+<body>
+
+<h1>Perfil #catsoninstagram</h1>
+
+<img src=“images/nome_da_sua_imagem.jpg” />
+
+</body>
+
+</html>
+```
 
